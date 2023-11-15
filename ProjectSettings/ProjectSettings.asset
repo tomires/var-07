@@ -137,8 +137,6 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 11400000, guid: 27020c79422d14a45a8d9a1fca8e79e5, type: 2}
-  - {fileID: 9159188248918266539, guid: d1fd315a8d3fd3f4ca6f6a1384977c1e, type: 2}
   - {fileID: 11400000, guid: 3e81599f0032d34408672da38e876ceb, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -844,7 +842,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

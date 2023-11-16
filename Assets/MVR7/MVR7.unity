@@ -1572,7 +1572,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'XR Hands
 
-    Hand Visualizer'
+    Hand Visualizer
+
+    (OpenXR only)'
 --- !u!222 &1268144361
 CanvasRenderer:
   m_ObjectHideFlags: 0

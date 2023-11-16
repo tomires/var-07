@@ -6,6 +6,7 @@ namespace DCGI.MVR7
         MVR7,
         XRHandsHandVisualizer,
         XRInteractionToolkitHandsDemo,
-        XRInteractionToolkitDemoScene
+        XRInteractionToolkitDemoScene,
+        MetaXRInteractionSamples = 10
     }
 }

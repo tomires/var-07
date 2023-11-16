@@ -16,6 +16,9 @@ namespace DCGI.MVR7
         public void GoToXRInteractionToolkitDemoScene()
         => ChangeScene(SceneNumber.XRInteractionToolkitDemoScene);
         
+        public void GoToMetaXRInteractionSamples()
+        => ChangeScene(SceneNumber.MetaXRInteractionSamples);
+        
         private List<InputDevice> _connectedControllers = new();
             
         private void Awake() 

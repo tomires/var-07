@@ -19,6 +19,9 @@ namespace DCGI.MVR7
         public void GoToMetaXRInteractionSamples()
         => ChangeScene(SceneNumber.MetaXRInteractionSamples);
         
+        public void GoToMetaMovementSDKBodyTracking()
+        => ChangeScene(SceneNumber.MetaMovementSDKBodyTracking);
+        
         private List<InputDevice> _connectedControllers = new();
             
         private void Awake() 

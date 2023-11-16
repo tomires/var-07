@@ -7,6 +7,7 @@ namespace DCGI.MVR7
         XRHandsHandVisualizer,
         XRInteractionToolkitHandsDemo,
         XRInteractionToolkitDemoScene,
-        MetaXRInteractionSamples = 10
+        MetaMovementSDKBodyTracking = 5,
+        MetaXRInteractionSamples = 11
     }
 }

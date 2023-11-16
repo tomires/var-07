@@ -18,6 +18,24 @@ EditorBuildSettings:
     path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   - enabled: 1
+    path: Packages/com.meta.movement/Samples/Scenes/MovementISDKIntegration.unity
+    guid: 788805bcffb96f84ab907f4730e5759e
+  - enabled: 1
+    path: Packages/com.meta.movement/Samples/Scenes/MovementAura.unity
+    guid: cc4479801f152ae429eb674705ae15a3
+  - enabled: 1
+    path: Packages/com.meta.movement/Samples/Scenes/MovementBlendshapeMappingExample.unity
+    guid: bda49cb29bd333b418d2626b4a07f288
+  - enabled: 1
+    path: Packages/com.meta.movement/Samples/Scenes/MovementHighFidelity.unity
+    guid: 95d70f1c0a626c449881b1b4260b6b9d
+  - enabled: 1
+    path: Packages/com.meta.movement/Samples/Scenes/MovementHipPinning.unity
+    guid: c5846fe596ba70848af39ac75c189ca4
+  - enabled: 1
+    path: Packages/com.meta.movement/Samples/Scenes/MovementRetargeting.unity
+    guid: fc2df0dac4e954244b6cd75ecbed5530
+  - enabled: 1
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/59.0.0/Example Scenes/BodyPoseDetectionExamples.unity
     guid: 06a339ff5513d7f49a91ab90cbe194d4
   - enabled: 1

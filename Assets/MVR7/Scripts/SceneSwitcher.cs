@@ -26,6 +26,7 @@ namespace DCGI.MVR7
         => ChangeScene(SceneNumber.SpatialAnchors);
         
         private List<InputDevice> _connectedControllers = new();
+        private bool _sceneChangeInitiated = false;
             
         private void Awake() 
         {
@@ -36,7 +37,7 @@ namespace DCGI.MVR7
             InputDevices.GetDevices(devices);
             devices.ForEach(AddController);
         }
-        
+
         private void Update() 
         {
             _connectedControllers.ForEach(controller => 
@@ -47,10 +48,17 @@ namespace DCGI.MVR7
             });
         }
         
-        private void ChangeScene(SceneNumber sceneNumber)
+        private async void ChangeScene(SceneNumber sceneNumber)
         {
-            if (SceneManager.GetActiveScene().buildIndex == (int)sceneNumber) return;
-            SceneManager.LoadSceneAsync((int)sceneNumber);
+            if (SceneManager.GetActiveScene().buildIndex == (int)sceneNumber || _sceneChangeInitiated) return;
+            _sceneChangeInitiated = true;
+            await SceneManager.LoadSceneAsync((int)sceneNumber);
+            _sceneChangeInitiated = false;
+            
+            if (sceneNumber == SceneNumber.MVR7) 
+            {
+                Destroy(gameObject);
+            }
         }
         
         private void AddController(InputDevice controller) 

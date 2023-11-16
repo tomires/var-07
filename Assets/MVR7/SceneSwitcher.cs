@@ -22,6 +22,9 @@ namespace DCGI.MVR7
         public void GoToMetaMovementSDKBodyTracking()
         => ChangeScene(SceneNumber.MetaMovementSDKBodyTracking);
         
+        public void GoToSpatialAnchors()
+        => ChangeScene(SceneNumber.SpatialAnchors);
+        
         private List<InputDevice> _connectedControllers = new();
             
         private void Awake() 
@@ -39,7 +42,7 @@ namespace DCGI.MVR7
             _connectedControllers.ForEach(controller => 
             {
                 bool pressed;
-                if (controller.TryGetFeatureValue(CommonUsages.primaryButton, out pressed) && pressed)
+                if (controller.TryGetFeatureValue(CommonUsages.secondaryButton, out pressed) && pressed)
                     ChangeScene(SceneNumber.MVR7);
             });
         }

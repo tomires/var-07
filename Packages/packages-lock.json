@@ -17,6 +17,13 @@
       "dependencies": {},
       "url": "https://npm.developer.oculus.com"
     },
+    "com.meta.xr.sdk.haptics": {
+      "version": "git@github.com:tomires/meta-haptics-sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9d145cf1469697f8b512256f137157af6559b6d7"
+    },
     "com.meta.xr.sdk.interaction": {
       "version": "59.0.0",
       "depth": 0,

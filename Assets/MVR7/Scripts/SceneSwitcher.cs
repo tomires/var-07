@@ -22,9 +22,6 @@ namespace DCGI.MVR7
         public void GoToMetaMovementSDKBodyTracking()
         => ChangeScene(SceneNumber.MetaMovementSDKBodyTracking);
         
-        public void GoToSpatialAnchors()
-        => ChangeScene(SceneNumber.SpatialAnchors);
-        
         private List<InputDevice> _connectedControllers = new();
         private bool _sceneChangeInitiated = false;
             

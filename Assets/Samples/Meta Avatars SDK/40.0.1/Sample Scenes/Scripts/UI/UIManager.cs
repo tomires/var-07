@@ -92,7 +92,6 @@ public class UIManager : MonoBehaviour
             }
             else
             {
-                DontDestroyOnLoad(gameObject);
                 EnableEventSystemGameObject();
                 _canvasController = GetComponent<UICanvasController>();
                 _windowController = GetComponent<UIWindowController>();

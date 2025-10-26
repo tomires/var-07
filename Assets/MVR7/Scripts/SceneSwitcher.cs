@@ -19,6 +19,9 @@ namespace DCGI.MVR7
         public void GoToMetaXRInteractionSamples()
         => ChangeScene(SceneNumber.MetaXRInteractionSamples);
         
+        public void GoToMetaAvatarsSDKMirror()
+        => ChangeScene(SceneNumber.MetaAvatarsSDKMirror);
+        
         public void GoToMetaMovementSDKBodyTracking()
         => ChangeScene(SceneNumber.MetaMovementSDKBodyTracking);
         

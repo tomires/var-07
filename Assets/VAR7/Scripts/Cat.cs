@@ -1,7 +1,7 @@
 using Oculus.Haptics;
 using UnityEngine;
 
-namespace DCGI.MVR7 
+namespace DCGI.VAR7 
 {
     [RequireComponent(typeof(AudioSource))]
     public class Cat : MonoBehaviour

@@ -1,4 +1,4 @@
-namespace DCGI.MVR7 
+namespace DCGI.VAR7 
 {
     [System.Serializable]
     public enum SceneNumber 

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.SceneManagement;
 
-namespace DCGI.MVR7 
+namespace DCGI.VAR7 
 {
     public class SceneSwitcher : MonoBehaviour
     {
